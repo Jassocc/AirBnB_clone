@@ -59,11 +59,11 @@ article {
 }
 .places .amenities,
 .places .reviews {
-	margin-top: 40px; width: 100%; height: inherit;
+	margin-top: 40px; width: 100%; height: inherit; text-align: left;
 }
 .places .amenities ul,
 .places .reviews ul {
-	list-style-type: none; padding: 0;
+	list-style-type: none; padding: 0; margin-left;
 }
 .places .amenities h2,
 .places .reviews h2 {
@@ -93,4 +93,7 @@ article {
 .wifi_inc {
 	background-size: cover; background-repeat: no-repeat; width: 20px; height: 20px;
 	display: inline-block;
+}
+.places .amenitites h2 {
+	margin-right: 40px;
 }
